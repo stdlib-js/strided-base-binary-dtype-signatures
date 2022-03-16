@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-binary-dtype-signatures",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Generate a list of binary interface signatures from strided array data types.",
   "license": "Apache-2.0",
   "author": {
