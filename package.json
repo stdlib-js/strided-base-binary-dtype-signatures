@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/strided-base-binary-dtype-signatures",
+  "version": "0.0.0",
+  "description": "Generate a list of binary interface signatures from strided array data types.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/strided-base-binary-dtype-signatures.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "strided",
+    "dtypes",
+    "dtype",
+    "data",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "signatures",
+    "api",
+    "interface"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
