@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.signatures;
+})();
 })();
 </script>
 ```
@@ -147,6 +149,7 @@ var sigs = signatures( dtypes, dtypes, dtypes, options );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-dtype-signatures@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Get the list of supported strided array data types:
 var dt = dtypes();
@@ -158,6 +161,7 @@ var sigs = signatures( dt, dt, dt );
 var str = replace( JSON.stringify( sigs ), /("[^"]+","[^"]+","[^"]+"),/g, '$1,\n' );
 console.log( str );
 
+})();
 })();
 </script>
 </body>
@@ -253,9 +257,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-binary-dtype-signatures/main/LICENSE
 
-[@stdlib/strided/dtypes]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/stdlib/tree/umd/tree/umd
 
-[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/stdlib/tree/umd/tree/umd
 
 </section>
 
